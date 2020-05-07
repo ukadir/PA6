@@ -91,7 +91,7 @@ Suffix Arrays allow us to preprocess a long database string to perform pretty fa
 Create a file called ``3a.txt`` (case-sensitive) in the root directory of this repository (i.e., in the same folder as [``README.md``](README.md)) containing the Burrows-Wheeler Transform of the string **``NIEMAMOSHIRI$``** (which already includes the end-of-string symbol, ``$``).
 
 ### Task 3b: Create ``3b.txt`` (5 points)
-Create a file called ``3b.txt`` (case-sensitive) in the root directory of this repository (i.e., in the same folder as [``README.md``](README.md)) containing the original string whose Burrows-Wheeler Transform is **``ABB$AILA``**. You can choose to include or exclude the end-of-string symbol in your answer as you wish.
+Create a file called ``3b.txt`` (case-sensitive) in the root directory of this repository (i.e., in the same folder as [``README.md``](README.md)) containing the original string whose Burrows-Wheeler Transform is **``ABB$AILA``**. Be sure to include the end-of-string symbol in your answer.
 
 ### Task 3c: Edit [``BWT.cpp``](BWT.cpp) (25 points)
 In this repository, there is a file called [``BWT.cpp``](BWT.cpp) that contains initial steps towards implementing the Burrows-Wheeler Transform. Function headers (with usage details) are included in [``BWT.h``](BWT.h). Your task is to fill in the missing code.
