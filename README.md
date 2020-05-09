@@ -1,6 +1,9 @@
 # Programming Assignment 6: Fast String Searching
 In this Programming Assignment, you will be assessing your understanding of data structures commonly used to perform fast string searches.
 
+## Part 0: Weekly Reflection Survey (5 points)
+Complete this weekly reflection survey:  https://forms.gle/zZVZKoBFnyEjpiB9A
+
 ## Part 1: Aho-Corasick Automaton (30 points)
 Imagine we have a database *D* containing *m* strings, where each string is of length *k*, and we have a long query sequence *Q* of length *n*, where *n* >> *k*. Our computational problem is the following: For every string *w* in *D*, does *w* appear as a substring of *Q*, and if so, at what position(s) of *Q*? Our database does not change very frequently (if ever), but our query changes frequently. We can preprocess the database by constructing an Aho-Corasick Automaton, which will enable a rapid scan of *Q* through *D*.
 
@@ -116,6 +119,9 @@ AMINE$
 This Programming Assignment (PA) must be completed 100% independently! You may only discuss the PA with the Tutors, TAs, and Instructors. You are free to use resources from the internet, but you are not allowed to blatantly copy-and-paste code. If you ever find yourself highlighting a code snippet, copying, and pasting into your PA, you are likely violating the Academic Integrity Policy. If you have any concerns or doubts regarding what you are about to do, *please* be sure to post on Piazza first to ask us if it is okay.
 
 ## Grading (100 points total)
+* **Part 0: Weekly Reflection Survey**
+    * 5 points for submitting the weekly reflection survey (extra credit)
+    * 0 points for not submitting the weekly reflection survey
 * **Part 1: Aho-Corasick Automaton**
     * 5 points for a correct ``1a.txt`` (0 points for incorrect)
     * 5 points for a correct ``1b.txt`` (0 points for incorrect)
